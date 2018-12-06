@@ -9,7 +9,7 @@ setup(
     description          = 'A graphite storage plugin for OpenTSDB.',
     author               = 'Mike Bryant',
     author_email         = 'mike@mikebryant.me.uk',
-    install_requires     = ['django < 1.7', 'django-cacheback', 'graphite-web', 'requests'],
+    install_requires     = ['Django>=1.8,<2.1.99', 'django-cacheback', 'requests'],
     include_package_data = True,
     test_suite           = 'setuptest.setuptest.SetupTestSuite',
     tests_require        = ['django-setuptest', 'httmock', 'mock'],
